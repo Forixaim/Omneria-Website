@@ -2,6 +2,8 @@
 
 const DownloadButton = document.querySelector('#Download');
 
-DownloadButton.onclick = () => {
+
+DownloadButton.onclick = () => 
+{
 	alert("DL");
 }

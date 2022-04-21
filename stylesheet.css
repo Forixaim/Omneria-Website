@@ -2,11 +2,29 @@ body
 {
 	/*kek*/
 	font-family: 'Segoe UI Variable Display', 'Segoe UI', 'Roboto', sans-serif;
-	background-color: #aaaaaa
-	color: #000000
+	background-color: #eeeeee;
+	color: #000000;
 }
 
-ul 
+.Paragraph
+{
+	text-indent: 40px;
+	color: #000000;
+}
+
+#SearchBar
+{
+	float: left;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: auto;
+	font-size: 17px;
+}
+
+
+
+.NavBar 
 {
 	list-style-type: none;
 	margin: 0;
@@ -17,9 +35,18 @@ ul
 
 .TitleText
 {
+	width: auto;
+	text-align: center;
+	font-size: 300%;
+}
+
+#Blurb
+{
 	margin: auto;
 	text-align: center;
+	font-size: 150%;
 }
+
 .NavigationLink
 {
 	float: left;
@@ -31,6 +58,7 @@ ul
 	position: relative;
 	max-width: 100%;
 	max-height: 100%;
+	cursor: default;
 }
 
 .RightLink
@@ -44,6 +72,7 @@ ul
 	position: relative;
 	max-width: 100%;
 	max-height: 100%;
+	cursor: default;
 }
 
 .RightLink:hover
@@ -75,3 +104,38 @@ ul
 {
 	background-color: #444444;
 }
+.collapsible 
+{
+	background-color: #222222;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	max-width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover 
+{
+	background-color: #333333;
+}
+
+.collapsible:active
+{
+	background-color: #444444;
+}
+
+.content {
+  padding: 0 18px;
+  width: 300px;
+  display: none;
+  overflow: hidden;
+  background-color: #eeeeee;
+  border-left-color: #222222;
+  border-left-width: 3px;
+  border-left-style: solid;
+  height: auto;
+}
+
