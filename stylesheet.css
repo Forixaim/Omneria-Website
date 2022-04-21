@@ -1,0 +1,77 @@
+body
+{
+	/*kek*/
+	font-family: 'Segoe UI Variable Display', 'Segoe UI', 'Roboto', sans-serif;
+	background-color: #aaaaaa
+	color: #000000
+}
+
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222222;
+}
+
+.TitleText
+{
+	margin: auto;
+	text-align: center;
+}
+.NavigationLink
+{
+	float: left;
+	color: #ffffff;
+	display: block;
+	padding: 16px;
+	font-style: bold;
+	text-decoration: none;
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.RightLink
+{
+	float: right;
+	color: #ffffff;
+	display: block;
+	padding: 16px;
+	font-style: bold;
+	text-decoration: none;
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.RightLink:hover
+{
+	background-color: #333333;
+	animation: clicked 1s;
+	-moz-animation: clicked 1s;
+	-webkit-animation: clicked 1s;
+	-ms-animation: clicked 1s;
+	-o-animation: clicked 1s;
+}
+
+.RightLink:active 
+{
+	background-color: #444444;
+}
+
+.NavigationLink:hover
+{
+	background-color: #333333;
+	animation: clicked 1s;
+	-moz-animation: clicked 1s;
+	-webkit-animation: clicked 1s;
+	-ms-animation: clicked 1s;
+	-o-animation: clicked 1s;
+}
+
+.NavigationLink:active 
+{
+	background-color: #444444;
+}
