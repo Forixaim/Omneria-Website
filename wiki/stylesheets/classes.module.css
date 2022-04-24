@@ -1,0 +1,154 @@
+.NavigationLink {
+    float: left;
+    color: #ffffff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: default;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.RightLink 
+{
+    float: right;
+    color: #ffffff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: default;
+}
+
+.RightLink:hover 
+{
+    background-color: #333333;
+}
+
+.RightLink:active 
+{
+    background-color: #444444;
+}
+
+.NavigationLink:hover {
+    background-color: #333333;
+    transform: translate(0px, -2px);
+    color: #ffffff;
+}
+
+.NavigationLink:active 
+{
+    background-color: #444444;
+}
+
+.collapsible 
+{
+    background-color: #222222;
+    color: white;
+    cursor: default;
+    padding: 18px;
+    max-width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover 
+{
+    background-color: #333333;
+}
+
+.collapsible:active 
+{
+    background-color: #444444;
+}
+
+.content 
+{
+    padding: 0 18px;
+    width: 300px;
+    overflow: hidden;
+    background-color: #eeeeee;
+    height: auto;
+    list-style-type: none;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    position: absolute;
+}
+
+.CharacterContent 
+{
+    display: block;
+    text-decoration: none;
+    border: none;
+    background-color: rgba(76, 76, 80, 0.3);
+    border-left-color: #222222;
+    border-left-width: 6px;
+    border-left-style: solid;
+    cursor: default;
+    outline: none;
+    transition: border-left-width 0.2s ease-in-out;
+    color: #000000;
+    opacity: 1;
+}
+
+.CharacterContent:hover 
+{
+    border-left-width: 9px;
+    color: #000000;
+}
+
+.NavBar 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+.TitleText 
+{
+    width: auto;
+    text-align: center;
+    font-size: 300%;
+}
+
+.Paragraph 
+{
+    text-indent: 40px;
+    color: #000000;
+}
+
+.Infobox 
+{
+    border-style: solid;
+    margin-left: auto;
+    margin-right: 40px;
+    width: 300px;
+}
+
+.CharacterTitle
+{
+    text-align: center;
+    font-size: 120%;
+    border-bottom-style: solid;
+}
+
+.infoimage
+{
+    width:295px;
+    border-bottom-style: solid;
+}
+
+.Category
+{
+    border-bottom-style: solid;
+}
