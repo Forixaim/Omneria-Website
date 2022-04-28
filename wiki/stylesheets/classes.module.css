@@ -75,7 +75,7 @@
     padding: 0 18px;
     width: 300px;
     overflow: hidden;
-    background-color: #eeeeee;
+    background-color: rgba(76, 76, 80, 0);
     height: auto;
     list-style-type: none;
     max-height: 0;
@@ -83,18 +83,26 @@
     position: absolute;
 }
 
+.Wiki
+{
+	display: inline-block;
+}
+
 .CharacterContent 
 {
     display: block;
     text-decoration: none;
     border: none;
-    background-color: rgba(76, 76, 80, 0.3);
+    background-color: rgba(190, 190, 190, 1);
     border-left-color: #222222;
     border-left-width: 6px;
     border-left-style: solid;
-    cursor: default;
     outline: none;
-    transition: border-left-width 0.2s ease-in-out;
+	border-right-style: solid;
+    transition-property: border-left-width;
+	transition-duration: 0.2s ;
+	transition-timing-function: ease-in-out;
+	border-right-color: #000000;
     color: #000000;
     opacity: 1;
 }
@@ -129,10 +137,13 @@
 
 .Infobox 
 {
+	float: right;
     border-style: solid;
-    margin-left: auto;
-    margin-right: 40px;
     width: 300px;
+	clear: left;
+	border-radius: 25px;
+	border-color: #000000;
+	margin: 3%;
 }
 
 .CharacterTitle
@@ -140,15 +151,70 @@
     text-align: center;
     font-size: 120%;
     border-bottom-style: solid;
+	border-color: #000000;
 }
 
-.infoimage
+.InfoImage
 {
     width:295px;
-    border-bottom-style: solid;
+    border-bottom-style: none;
+}
+
+.Blurb 
+{
+    margin: auto;
+    text-align: center;
+    font-size: 150%;
 }
 
 .Category
 {
     border-bottom-style: solid;
+	border-color: #000000;
+}
+
+.Wrapper
+{
+	border-width: 3px;
+	border-radius: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1%;
+	border-style: solid;
+	display: block;
+	background-color: #444444;
+	background-size: 100%, 100%;
+	border-color: #000000;
+}
+
+.Buffer
+{
+	margin-top: 15px;
+	border-top-style: solid;
+	padding-top: 15px;
+}
+
+.AltText
+{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+	text-align: center;
+}
+
+.WikiText
+{
+	margin-left: 2%;
+	margin-top: 2%
+}
+
+.HeaderText
+{
+	text-align: center;
+}
+
+.WikiParagraph
+{
+	text-indent: 40px;
+	font-size: 14pt;
 }

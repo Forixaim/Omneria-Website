@@ -1,0 +1,6 @@
+@keyframes Oscillate
+{
+	0% {text-shadow: 0 0 6px #ffff00;}
+	50% {text-shadow: 0 0 9px #ffff00;}
+	100% {text-shadow: 0 0 6px #ffff00;}
+}

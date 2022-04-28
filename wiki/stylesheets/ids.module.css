@@ -8,14 +8,51 @@
     font-size: 17px;
 }
 
-#Blurb 
+#LastItem
 {
-    margin: auto;
-    text-align: center;
-    font-size: 150%;
+	border-bottom-style: solid;
+}
+
+#FirstItem
+{
+	border-top-style: solid;
 }
 
 #LastContent
 {
     border-bottom-style: none;
+}
+
+#Uther
+{
+	text-shadow: 0 0 0 none;
+	transition-property: text-shadow, border-left-width, color;
+}
+
+#Uther:hover
+{
+	text-shadow: 0 0 6px #ffff00;
+	color: #ffffff;
+}
+
+#Kalish
+{
+	text-shadow: 0 0 0 none;
+	transition-property: text-shadow, border-left-width, color;
+}
+
+#Kalish:hover
+{
+	text-shadow: 0 0 6px #000000;
+	color: #ffffff;
+}
+
+#UtherParagraph
+{
+	text-shadow: 0 0 3px rgba(255,255,0, 2);
+	color: #ffffff;
+	animation-name: Oscillate;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
