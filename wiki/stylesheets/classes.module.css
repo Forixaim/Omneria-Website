@@ -1,86 +1,86 @@
 .NavigationLink {
-    float: left;
-    color: #ffffff;
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    cursor: default;
-    transition-property: transform;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
+	float: left;
+	color: #ffffff;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	cursor: default;
+	transition-property: transform;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 
 .RightLink 
 {
-    float: right;
-    color: #ffffff;
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    cursor: default;
+	float: right;
+	color: #ffffff;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	cursor: default;
 }
 
 .RightLink:hover 
 {
-    background-color: #333333;
+	background-color: #333333;
 }
 
 .RightLink:active 
 {
-    background-color: #444444;
+	background-color: #444444;
 }
 
 .NavigationLink:hover {
-    background-color: #333333;
-    transform: translate(0px, -2px);
-    color: #ffffff;
+	background-color: #333333;
+	transform: translate(0px, -2px);
+	color: #ffffff;
 }
 
 .NavigationLink:active 
 {
-    background-color: #444444;
+	background-color: #444444;
 }
 
 .collapsible 
 {
-    background-color: #222222;
-    color: white;
-    cursor: default;
-    padding: 18px;
-    max-width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
+	background-color: #222222;
+	color: white;
+	cursor: default;
+	padding: 18px;
+	max-width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
 }
 
 .active, .collapsible:hover 
 {
-    background-color: #333333;
+	background-color: #333333;
 }
 
 .collapsible:active 
 {
-    background-color: #444444;
+	background-color: #444444;
 }
 
 .content 
 {
-    padding: 0 18px;
-    width: 300px;
-    overflow: hidden;
-    background-color: rgba(76, 76, 80, 0);
-    height: auto;
-    list-style-type: none;
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
-    position: absolute;
+	padding: 0 18px;
+	width: 300px;
+	overflow: hidden;
+	background-color: rgba(76, 76, 80, 0);
+	height: auto;
+	list-style-type: none;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+	position: absolute;
 }
 
 .Wiki
@@ -90,56 +90,56 @@
 
 .CharacterContent 
 {
-    display: block;
-    text-decoration: none;
-    border: none;
-    background-color: rgba(190, 190, 190, 1);
-    border-left-color: #222222;
-    border-left-width: 6px;
-    border-left-style: solid;
-    outline: none;
+	display: block;
+	text-decoration: none;
+	border: none;
+	background-color: rgba(190, 190, 190, 1);
+	border-left-color: #222222;
+	border-left-width: 6px;
+	border-left-style: solid;
+	outline: none;
 	border-right-style: solid;
-    transition-property: border-left-width;
+	transition-property: border-left-width;
 	transition-duration: 0.2s ;
 	transition-timing-function: ease-in-out;
 	border-right-color: #000000;
-    color: #000000;
-    opacity: 1;
+	color: #000000;
+	opacity: 1;
 }
 
 .CharacterContent:hover 
 {
-    border-left-width: 9px;
-    color: #000000;
+	border-left-width: 9px;
+	color: #000000;
 }
 
 .NavBar 
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #222222;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222222;
 }
 
 .TitleText 
 {
-    width: auto;
-    text-align: center;
-    font-size: 300%;
+	width: auto;
+	text-align: center;
+	font-size: 300%;
 }
 
 .Paragraph 
 {
-    text-indent: 40px;
-    color: #000000;
+	text-indent: 40px;
+	color: #000000;
 }
 
 .Infobox 
 {
 	float: right;
-    border-style: solid;
-    width: 300px;
+	border-style: solid;
+	width: 300px;
 	clear: left;
 	border-radius: 25px;
 	border-color: #000000;
@@ -148,28 +148,28 @@
 
 .CharacterTitle
 {
-    text-align: center;
-    font-size: 120%;
-    border-bottom-style: solid;
+	text-align: center;
+	font-size: 120%;
+	border-bottom-style: solid;
 	border-color: #000000;
 }
 
 .InfoImage
 {
-    width:295px;
-    border-bottom-style: none;
+	width:295px;
+	border-bottom-style: none;
 }
 
 .Blurb 
 {
-    margin: auto;
-    text-align: center;
-    font-size: 150%;
+	margin: auto;
+	text-align: center;
+	font-size: 150%;
 }
 
 .Category
 {
-    border-bottom-style: solid;
+	border-bottom-style: solid;
 	border-color: #000000;
 }
 

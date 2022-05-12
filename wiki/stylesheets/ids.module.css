@@ -1,11 +1,11 @@
 ﻿#SearchBar 
 {
-    float: left;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: auto;
-    font-size: 17px;
+	float: left;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: auto;
+	font-size: 17px;
 }
 
 #LastItem
@@ -20,7 +20,7 @@
 
 #LastContent
 {
-    border-bottom-style: none;
+	border-bottom-style: none;
 }
 
 #Uther
@@ -33,6 +33,18 @@
 {
 	text-shadow: 0 0 6px #ffff00;
 	color: #ffffff;
+}
+
+#Tiamat 
+{
+	text-shadow: 0 0 0 none;
+	transition-property: text-shadow, border-left-width, color;
+}
+
+#Tiamat:hover 
+{
+	text-shadow: 0 0 6px #440033;
+	color: #ff00ff;
 }
 
 #Kalish
@@ -51,7 +63,16 @@
 {
 	text-shadow: 0 0 3px rgba(255,255,0, 2);
 	color: #ffffff;
-	animation-name: Oscillate;
+	animation-name: UtherOscillate;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+#TiamatParagraph {
+	text-shadow: 0 0 3px rgba(255,255,0, 2);
+	color: #ffffff;
+	animation-name: TiamatOscillate;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;

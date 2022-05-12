@@ -1,6 +1,24 @@
-@keyframes Oscillate
+@keyframes UtherOscillate
 {
 	0% {text-shadow: 0 0 6px #ffff00;}
 	50% {text-shadow: 0 0 9px #ffff00;}
 	100% {text-shadow: 0 0 6px #ffff00;}
+}
+
+@keyframes TiamatOscillate 
+{
+	0% 
+	{
+		text-shadow: 0 0 6px #440033;
+	}
+
+	50% 
+	{
+		text-shadow: 0 0 9px #440033;
+	}
+
+	100% 
+	{
+		text-shadow: 0 0 6px #440033;
+	}
 }
